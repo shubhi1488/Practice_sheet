@@ -21,3 +21,26 @@ public class Main {
 
     }
 }
+...............................................................................................................................................................................
+	second method-
+	import java.util.*;
+public class Main {
+	 public static void takeInput(){
+
+        Scanner scn = new Scanner(System.in);
+        int sum = 0;
+
+        while(sum >= 0){
+
+            int n = scn.nextInt();
+            sum += n;
+
+            if(sum < 0) break;
+            System.out.println(n);
+        }
+    }
+    public static void main(String args[]) {
+		takeInput();
+
+    }
+}
